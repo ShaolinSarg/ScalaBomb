@@ -27,3 +27,9 @@ Question 2 - 11/11/15 12:00 - Joe
 DuplicateMe! Living in a cave is echo-ey business.  It sounds like you're saying everything twice...
 
 Please make the tests pass
+
+Question 3 - 12/11/15 11:30 - Joel
+---------------------------
+Even DuplicateMe - Similar to Question 2 But only every other item starting with the second should be duplicated
+
+Please make the tests pass
