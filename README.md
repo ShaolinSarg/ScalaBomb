@@ -21,3 +21,9 @@ Disemvowel - To remove the vowels from a piece of text as a form of censure. In 
 “The post was just a troll, so the mod disemvowelled it so people will just skip it.”
 
 Please make the tests pass
+
+Question 2 - 11/11/15 12:00 - Joe
+---------------------------
+DuplicateMe! Living in a cave is echo-ey business.  It sounds like you're saying everything twice...
+
+Please make the tests pass
