@@ -43,3 +43,7 @@ Please make the tests pass
 Question 5 - 13/11/15 13:40 - Nicole
 ---------------------------
 WINNING! - Given a sequence of people and the scores they have for a game.  Tell me who the winners are.
+
+Question 6 - 13/11/15 13:40 - Dave
+---------------------------
+Solve question 5 again, in a different way!
