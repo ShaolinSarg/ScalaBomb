@@ -10,6 +10,12 @@ class Question5Spec extends FlatSpec with Matchers {
 
   val players = List(paul, james, joan)
 
+  val playerScores = Seq((paul, Score(53)), (james, Score(10)))
+
+  "findMax" should "return the highest score for a given player" in {
+    Scores.maxScore(paul.scores) shouldBe Score(53)
+  }
+
   "winning" should "return the highest scoring player in the game" in {
     Question5.winning(players) shouldBe Set(joan)
   }
