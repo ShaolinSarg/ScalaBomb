@@ -33,3 +33,9 @@ Question 3 - 12/11/15 11:30 - Joel
 Even DuplicateMe - Similar to Question 2 But only every other item starting with the second should be duplicated
 
 Please make the tests pass
+
+Question 4 - 13/11/15 09:30 - Dave
+---------------------------
+Prime Location - Given a number n, return the nth number in a sequence of the first 40 prime numbers (1 based).
+
+Please make the tests pass
