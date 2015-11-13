@@ -39,3 +39,7 @@ Question 4 - 13/11/15 09:30 - Dave
 Prime Location - Given a number n, return the nth number in a sequence of the first 40 prime numbers (1 based).
 
 Please make the tests pass
+
+Question 5 - 13/11/15 13:40 - Nicole
+---------------------------
+WINNING! - Given a sequence of people and the scores they have for a game.  Tell me who the winners are.
