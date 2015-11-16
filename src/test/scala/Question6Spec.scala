@@ -1,8 +1,8 @@
-package questions.question5
+package questions.question6
 
 import org.scalatest.{ Matchers, FlatSpec }
 
-class Question5Spec extends FlatSpec with Matchers {
+class Question6Spec extends FlatSpec with Matchers {
 
   val paul = Player("Paul", Seq(Score(23), Score(53)))
   val james = Player("James", Seq(Score(5), Score(10)))
@@ -13,17 +13,17 @@ class Question5Spec extends FlatSpec with Matchers {
   val playerScores = Seq((paul, Score(53)), (james, Score(10)))
 
   "findMax" should "return the highest score for a given player" in {
-    Scores.maxScore(paul.scores) shouldBe Score(53)
+    Question6.maxScore(paul.scores) shouldBe Score(53)
   }
 
   "winning" should "return the highest scoring player in the game" in {
-    Question5.winning(players) shouldBe Set(joan)
+    Question6.winning(players) shouldBe Set(joan)
   }
 
   it should "return joint winners if there are more than one player with the highest score" in {
     val julie: Player = Player("Julie", Seq(Score(60), Score(59)))
     val morePlayers = julie :: players
 
-    Question5.winning(morePlayers) should contain theSameElementsAs List(joan, julie)
+    Question6.winning(morePlayers) should contain theSameElementsAs List(joan, julie)
   }
 }
