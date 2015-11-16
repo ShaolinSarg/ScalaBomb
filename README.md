@@ -47,3 +47,16 @@ WINNING! - Given a sequence of people and the scores they have for a game.  Tell
 Question 6 - 13/11/15 13:40 - Dave
 ---------------------------
 Solve question 5 again, in a different way!
+
+Question 7 - 16/11/15 14:27 - Joel
+---------------------------
+Who won the election
+
+Your Task:
+- Return the name of the winner.
+- If there is no winner, return None
+
+A name is an arbitrary string, e.g. "A", "B", or "XJDHD".
+The ballot-box is represented by an unsorted list of names. 
+Each entry in the list corresponds to one vote for this name. 
+A name wins the election if it gets more than n/2 votes (n = number of all votes)
