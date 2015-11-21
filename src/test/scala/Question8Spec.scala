@@ -1,4 +1,4 @@
-import org.scalatest.{FunSpec, Matchers}
+import org.scalatest.{ FunSpec, Matchers }
 
 class Question8Spec extends FunSpec with Matchers {
 
