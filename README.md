@@ -60,3 +60,8 @@ A name is an arbitrary string, e.g. "A", "B", or "XJDHD".
 The ballot-box is represented by an unsorted list of names. 
 Each entry in the list corresponds to one vote for this name. 
 A name wins the election if it gets more than n/2 votes (n = number of all votes)
+
+Question 8 - 16/11/15 17:27 - Joe
+----------------------------------
+
+Same as question 7 but make it pretty and probably a damn sight more efficient than my attempt....
